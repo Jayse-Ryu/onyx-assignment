@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="app">
     <Header />
     <v-main>
       <Dashboard />
@@ -24,3 +24,13 @@ export default {
   }),
 };
 </script>
+
+<style>
+html {
+  background-color: #212121;
+}
+
+#app {
+  min-width: 360px;
+}
+</style>
